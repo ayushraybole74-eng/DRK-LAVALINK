@@ -9,7 +9,7 @@ lavalink:
       snapshot: false
 
   server:
-    password: drk-dark+ays123
+    password: "${LAVALINK_SERVER_PASSWORD}"
     sources:
       youtube: false
       bandcamp: false
@@ -28,6 +28,4 @@ plugins:
     clients:
       - MUSIC
       - ANDROID_VR
-      - WEB
-      - WEBEMBEDDED
       
